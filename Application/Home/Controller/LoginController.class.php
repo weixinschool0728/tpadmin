@@ -11,7 +11,7 @@ class LoginController extends Controller{
 
     public function index()
     {
-
+        $this->display('index');  
 
     }
 
@@ -20,7 +20,7 @@ class LoginController extends Controller{
         //本地账号登陆
         if(empty($type)){
             if(!IS_POST){
-              $this->display();  
+              $this->display("index");  
             }
             if(IS_POST){
                 //验证码自己开启。代码省略
