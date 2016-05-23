@@ -9,6 +9,10 @@ use Extend\Oauth\ThinkOauth;
  */
 class LoginController extends Controller{
 
+    function __construct() {
+        parent::__construct();
+        $this->title="小潜潜";
+    }
     public function index()
     {
         $this->display('index');  
