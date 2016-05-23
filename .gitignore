@@ -7,3 +7,4 @@
 /.settings
 /.project
 /nbproject/private/private.xml
+/Application/Common/Conf/db.php
